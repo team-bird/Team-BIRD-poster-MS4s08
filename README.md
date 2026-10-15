@@ -2,7 +2,6 @@
 
 **Module:** MS4S08 Applied Statistics for Data Science
 **Institution:** University of South Wales
-**Assessment:** Group poster (Tasks A–C) + individual reflective diary (Task D)
 
 ---
 
