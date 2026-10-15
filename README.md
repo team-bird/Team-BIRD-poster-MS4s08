@@ -53,6 +53,18 @@ SAS analysis & visualization/
     figure4_movers.pdf                     # Biggest movers
     figure6_trends.pdf                     # Trend lines
 
+powerbi visualization/
+    Compare Values.png                     # KPI comparison card
+    England VS Wales.png                   # England vs Wales comparison
+    Median 2025.png                        # Median ratio 2025
+    affordability check.png                # Affordability validation view
+    change in median by region .png        # Regional change chart
+    median ration by year.png              # Median ratio trend by year
+    median value check.png                 # Median value validation
+    price growth.png                       # Price growth visual
+    process1.png                           # Build/process screenshot 1
+    process2.png                           # Build/process screenshot 2
+
 Poster/
     affordability.pbix                     # Power BI interactive dashboard
 
@@ -65,6 +77,7 @@ README.md
 | `Raw Data/` | Original ONS workbook, unmodified |
 | `Cleaned Data/` | Cleaning script + tidy CSV (one row per authority-year) |
 | `SAS analysis & visualization/` | SAS outputs: tables, test results, figures |
+| `powerbi visualization/` | Exported Power BI visuals and process screenshots |
 | `Poster/` | Power BI dashboard file (`.pbix`) |
 
 ---
@@ -114,7 +127,23 @@ Outputs are saved as PDFs in `SAS analysis & visualization/`.
 
 ### 3. Visualisation — Power BI
 
-`Poster/affordability.pbix` contains the interactive dashboard:
+`Poster/affordability.pbix` contains the interactive dashboard.
+Exported visuals and build screenshots are stored in `powerbi visualization/`:
+
+| File | Shows |
+|---|---|
+| `Compare Values.png` | Side-by-side value comparison |
+| `England VS Wales.png` | England vs Wales comparison |
+| `Median 2025.png` | Median ratio, 2025 |
+| `affordability check.png` | Affordability validation view |
+| `change in median by region .png` | Change in median by region |
+| `median ration by year.png` | Median ratio trend by year |
+| `median value check.png` | Median value validation |
+| `price growth.png` | Price growth visual |
+| `process1.png` | Build process screenshot 1 |
+| `process2.png` | Build process screenshot 2 |
+
+Dashboard features:
 
 - KPI cards: median 2015 vs 2025, England vs Wales, region gap
 - Region bar chart with red/amber/blue colour banding
@@ -178,6 +207,8 @@ and are robust to this skew.
    `SAS analysis & visualization/`.
 6. Open `Poster/affordability.pbix` and refresh the data source
    to point at your local copy of the CSV.
+7. Compare your refreshed visuals against the exported images in
+   `powerbi visualization/`.
 
 ---
 
